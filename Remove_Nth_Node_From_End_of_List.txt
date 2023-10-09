@@ -10,7 +10,7 @@ The pivotal step in this process involves traversing the list until reaching the
 
 Complexity
 Time complexity:
-O(2n) in worst case scenario
+O(n) in worst case scenario
 
 Space complexity:
 O(1)
