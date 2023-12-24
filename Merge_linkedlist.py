@@ -40,7 +40,7 @@ for i in b:
 
 list1 = list1.next # we are doing this because we have initialized the list1 and list2 with None
 list2 = list2.next # we are doing this because we have initialized the list1 and list2 with None
-
+print(list1.val)
 s = Solution()
 result = s.mergeTwoLists(list1, list2)
 
