@@ -21,7 +21,7 @@ class Solution():
           queue.append(current_node.left)
         if current_node.right:
           queue.append(current_node.right)
-      main_list.append(level_list)
+      main_list.append(level_list) #append the level_list to the main_list each time when the level_list is filled with the values of the current level
       del level_list
     return main_list
   
